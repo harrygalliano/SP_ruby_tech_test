@@ -4,11 +4,15 @@
 
 ## Running the code 
 first cd to a directory that you would like to store the code in.
+
 Type:  git clone git@github.com:harrygalliano/SP_ruby_tech_test.git 
 in the command line. 
+
 Run: bundle install.
+
 Run : rspec 
 to see test outputs and test coverage.
+
 Enter: ruby app.rb webserver.log
 to see the results.
 
