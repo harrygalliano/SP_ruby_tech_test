@@ -21,4 +21,11 @@ class Receiver
           p "#{values.first} #{values.last.count} visits"
         end
       end
+
+      def unique_views
+        p 'Sites with most unique views: '
+        @content.sort_by { |address| address[1].uniq.count }.reverse.each do |values|
+          p "#{values.first} #{values.last.uniq.count} unique views"
+        end
+      end
     end

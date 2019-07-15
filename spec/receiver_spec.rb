@@ -41,4 +41,5 @@ describe Receiver do
                expect(@receiver.unique_views.count).to eq(6)
             end
         end
+
     end
