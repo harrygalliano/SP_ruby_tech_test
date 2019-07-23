@@ -12,7 +12,7 @@
 
 
 
-## A brief overview to how I tackled the tech test
+## A brief overview on how I tackled the tech test
 
 For me it was really important to ensure that I thoroughly stuck to my background using TDD. This helped me to avoid difficult situations where the code was breaking and I didn’t know why. 
 
